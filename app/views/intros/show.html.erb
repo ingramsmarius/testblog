@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @intro.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @intro.description %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @intro.number %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @intro.note %>
+</p>
+
+<%= link_to 'Edit', edit_intro_path(@intro) %> |
+<%= link_to 'Back', intros_path %>
